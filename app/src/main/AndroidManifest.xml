@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kastigator.absent">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/absent_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/absent_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddAbsent" />
+        <activity android:name=".NoDataActivity" />
+        <activity android:name=".FullDetailView" />
+        <activity android:name=".AboutAppActivity" />
+        <activity android:name=".AboutDevActivity" />
+        <activity android:name=".SettingActivity"></activity>
+    </application>
+
+</manifest>
